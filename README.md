@@ -18,6 +18,7 @@ Apply data visualization techniques to identify the patterns of the data.
 
 
 # CODE
+
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -93,9 +94,9 @@ subcategory_hist.set_ylabels('Number')
 grid = sns.FacetGrid(df, row='Category', col='Sub-Category', height=2.2, aspect=1.6)
 grid.map(sns.barplot, 'Profit', 'Segment', alpha=.5, ci=None)
 grid.add_legend()
-```
 
 # OUPUT
+
 ![oimg1 (1)](https://user-images.githubusercontent.com/94508142/172656661-e77ce8e1-4934-49a7-a87f-a7d7f3ed00a6.png)
 ![oimg1 (2)](https://user-images.githubusercontent.com/94508142/172656729-323f104e-5801-4727-a69c-614b5dc28d21.png)
 ![oimg1 (3)](https://user-images.githubusercontent.com/94508142/172656794-16a1c200-d9f8-43da-b237-f18cf62b15bc.png)
@@ -106,6 +107,7 @@ grid.add_legend()
 ![oimg1 (8)](https://user-images.githubusercontent.com/94508142/172657205-06a369c6-2e91-476f-bf88-f7782db44e28.png)
 ![oimg1 (9)](https://user-images.githubusercontent.com/94508142/172657249-31b9a9ae-6fb2-4cad-b166-f46da07fa520.png)
 ![oimg1 (10)](https://user-images.githubusercontent.com/94508142/172657318-a48ec2aa-0c3a-4155-be47-c0b288ba4079.png)
+
 # Result:
 Data Visualization on a complex dataset and save the data to a file has been performed.
 
